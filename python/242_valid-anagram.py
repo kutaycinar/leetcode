@@ -16,5 +16,6 @@ class Solution:
 
         return hash1 == hash2
 
+
 # Time:  O(s+t)
 # Space: O(s+t)

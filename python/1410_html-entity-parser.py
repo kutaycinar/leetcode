@@ -23,5 +23,6 @@ class Solution:
 
         return text
 
+
 # Time:  O(n)
 # Space: O(1)

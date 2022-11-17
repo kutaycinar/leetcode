@@ -13,5 +13,6 @@ class Solution:
 
         return counter
 
+
 # Time:  O(n)
 # Space: O(1)

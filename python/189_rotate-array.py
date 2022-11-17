@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
@@ -11,6 +12,7 @@ class Solution:
 
         for i in range(size):
             nums[(i+k) % size] = temp[i]
+
 
 # Time:  O(n)
 # Space: O(n)

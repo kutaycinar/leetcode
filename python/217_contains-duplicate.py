@@ -1,5 +1,6 @@
 from typing import List
 
+
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
 
@@ -16,6 +17,7 @@ class Solution:
                 return True
 
         return False
+
 
 # Time:  O(n)
 # Space: O(n)
