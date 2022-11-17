@@ -6,11 +6,13 @@ class Solution:
         bucket = {}
 
         for i in range(len(nums)):
-            bucket[nums[i]] = 0
 
-        for i in range(len(nums)):
-            bucket[nums[i]] += 1
-            if (bucket[nums[i]] > 1):
+            if bucket.get(nums[i]) is None:
+                bucket[nums[i]] = 1
+            else:
+                bucket[nums[i]] += 1
+
+            if bucket[nums[i]] > 1:
                 return True
 
         return False
