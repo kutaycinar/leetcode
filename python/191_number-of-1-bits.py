@@ -10,5 +10,5 @@ class Solution:
 
         return counter
 
-# Time:  O(1    )
+# Time:  O(1)
 # Space: O(1)
