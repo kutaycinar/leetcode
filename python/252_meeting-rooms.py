@@ -34,5 +34,5 @@ class Solution:
         return True
 
 
-# Time:  O(nlogn)
+# Time:  O(n*log n)
 # Space: O(1)

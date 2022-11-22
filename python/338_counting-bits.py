@@ -9,5 +9,5 @@ class Solution:
         print(ans)
 
 
-# Time:  O(nlogn)
+# Time:  O(n*log n)
 # Space: O(n)
