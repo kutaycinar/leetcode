@@ -9,15 +9,31 @@ class TreeNode:
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
 
-        node = root
+        pointer1 = root
+        pointer2 = root
+        last_commmon = root
 
         while True:
-            if p.val < node.val and q.val < node.val:
-                node = node.left
-            elif p.val > node.val and q.val > node.val:
-                node = node.right
-            else:
-                return node
 
-# Time:  O(log n)
-# Space: O(1)
+            if not pointer1 or not pointer2:
+                break
+
+            if pointer1.val != pointer2.val:
+                return last_commmon
+
+            last_commmon = pointer1
+
+            if p.val < pointer1.val:
+                pointer1 = pointer1.left
+            elif p.val > pointer1.val:
+                pointer1 = pointer1.right
+
+            if q.val < pointer2.val:
+                pointer2 = pointer2.left
+            elif q.val > pointer2.val:
+                pointer2 = pointer2.right
+
+        return last_commmon
+
+        # Time:  O(log n)
+        # Space: O(1)
