@@ -13,7 +13,6 @@ for file in dir:
     problems[num] = file[2]
 
 fout.write("# leetcode\n\n")
-fout.write(f"# {len(problems)}/75\n\n")
 fout.write("| #   | Problem | Difficulty | Solutions |\n")
 fout.write("| --: | ------- | ---------- | --------- |\n")
 
@@ -29,7 +28,8 @@ for i in sorted(problems):
     name = leetcode['data']['question']['title']
     difficulty = leetcode['data']['question']['difficulty']
     url = "https://leetcode.com/problems/" + id
-    path = "./python/" + problems[i]
+    path = "./python/" + str(i) + "_" + problems[i]
+
     fout.write(
         f"| ``{i}`` | [{name}]({url}) | {difficulty} | [python]({path}) |\n")
 
@@ -44,8 +44,9 @@ for i in sorted(problems):
     bar.next()
 
 fout.write(f"\n")
-fout.write(f"### easy: {easy}\n")
-fout.write(f"### medium: {medium}\n")
-fout.write(f"### hard: {hard}\n")
+fout.write(f"# {len(problems)} solved\n")
+fout.write(f"### easy: ``{easy}``\n")
+fout.write(f"### medium: ``{medium}``\n")
+fout.write(f"### hard: ``{hard}``\n")
 
 bar.finish()
