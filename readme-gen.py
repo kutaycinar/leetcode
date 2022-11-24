@@ -12,7 +12,7 @@ for file in dir:
     num = int(file[0])
     problems[num] = file[2]
 
-fout.write("# leetcode\n\n")
+fout.write("# Leetcode Solved\n\n")
 fout.write("| #   | Problem | Difficulty | Solutions |\n")
 fout.write("| --: | ------- | ---------- | --------- |\n")
 
@@ -43,10 +43,12 @@ for i in sorted(problems):
 
     bar.next()
 
-fout.write(f"\n")
-fout.write(f"# {len(problems)} solved\n")
-fout.write(f"### easy: ``{easy}``\n")
-fout.write(f"### medium: ``{medium}``\n")
-fout.write(f"### hard: ``{hard}``\n")
+fout.write("""
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://leetcode-stats-six.vercel.app/?username=kutaycinar&theme=dark">
+    <source media="(prefers-color-scheme: light)" srcset="https://leetcode-stats-six.vercel.app/?username=kutaycinar">
+    <img width=655px>
+</picture>
+""")
 
 bar.finish()
