@@ -22,7 +22,4 @@
 | ``1410`` | [HTML Entity Parser](https://leetcode.com/problems/html-entity-parser) | Medium | [python](./python/1410_html-entity-parser.py) |
 | ``1904`` | [The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played) | Medium | [python](./python/1904_the-number-of-full-rounds-you-have-played.py) |
 
-# 19 solved
-### easy: ``15``
-### medium: ``4``
-### hard: ``0``
+<img src="https://leetcode-stats-six.vercel.app/?username=kutaycinar&theme=dark" width=655px>
