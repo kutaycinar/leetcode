@@ -16,6 +16,7 @@
 | ``141`` | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | [python](./python/141_linked-list-cycle.py) |
 | ``169`` | [Majority Element](https://leetcode.com/problems/majority-element) | Easy | [python](./python/169_majority-element.py) |
 | ``189`` | [Rotate Array](https://leetcode.com/problems/rotate-array) | Medium | [python](./python/189_rotate-array.py) |
+| ``190`` | [Reverse Bits](https://leetcode.com/problems/reverse-bits) | Easy | [python](./python/190_reverse-bits.py) |
 | ``191`` | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits) | Easy | [python](./python/191_number-of-1-bits.py) |
 | ``206`` | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list) | Easy | [python](./python/206_reverse-linked-list.py) |
 | ``217`` | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy | [python](./python/217_contains-duplicate.py) |
@@ -23,6 +24,7 @@
 | ``235`` | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | Medium | [python](./python/235_lowest-common-ancestor-of-a-binary-search-tree.py) |
 | ``242`` | [Valid Anagram](https://leetcode.com/problems/valid-anagram) | Easy | [python](./python/242_valid-anagram.py) |
 | ``252`` | [Meeting Rooms](https://leetcode.com/problems/meeting-rooms) | Easy | [python](./python/252_meeting-rooms.py) |
+| ``268`` | [Missing Number](https://leetcode.com/problems/missing-number) | Easy | [python](./python/268_missing-number.py) |
 | ``278`` | [First Bad Version](https://leetcode.com/problems/first-bad-version) | Easy | [python](./python/278_first-bad-version.py) |
 | ``338`` | [Counting Bits](https://leetcode.com/problems/counting-bits) | Easy | [python](./python/338_counting-bits.py) |
 | ``383`` | [Ransom Note](https://leetcode.com/problems/ransom-note) | Easy | [python](./python/383_ransom-note.py) |
