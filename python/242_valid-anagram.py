@@ -5,13 +5,13 @@ class Solution:
         hash2 = {}
 
         for c in s:
-            if hash1.get(c) is None:
-                hash1[c] = 1
+            if c not in hash1:
+                hash1[c] = 0
             hash1[c] += 1
 
         for c in t:
-            if hash2.get(c) is None:
-                hash2[c] = 1
+            if c not in hash2:
+                hash2[c] = 0
             hash2[c] += 1
 
         return hash1 == hash2
