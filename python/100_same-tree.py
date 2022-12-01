@@ -1,7 +1,7 @@
-# Definition for a binary tree node.
 from typing import Optional
 
 
+# Definition for a binary tree node.
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -17,10 +17,7 @@ class Solution:
         if not p or not q or p.val != q.val:
             return False
 
-        left = self.isSameTree(p.left, q.left)
-        right = self.isSameTree(p.right, q.right)
-
-        return left and right
+        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
 # Time:  O(p+q)
 # Space: O(p+q)
