@@ -11,22 +11,23 @@ class TreeNode:
 
 class Solution:
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
+        if not root:
+            return False
 
-        def dfs(root):
-            if not root:
-                return False
-            if same(root, subRoot):
-                return True
-            return dfs(root.left) or dfs(root.right)
+        if self.isSameTree(root, subRoot):
+            return True
 
-        def same(p, q):
-            if not p and not q:
-                return True
-            if not p or not q or p.val != q.val:
-                return False
-            return same(p.left, q.left) and same(p.right, q.right)
+        return self.isSubtree(root.left, subRoot) or self.isSubtree(root.right, subRoot)
 
-        return dfs(root)
+    # Leetcode Problem 100
+    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+        if not p and not q:
+            return True
+
+        if not p or not q or p.val != q.val:
+            return False
+
+        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 
 # Time:  O(m*n)
 # Space: O(m+n)
