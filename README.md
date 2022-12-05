@@ -7,6 +7,7 @@
 | ``21`` | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | Easy | [python](./python/21_merge-two-sorted-lists.py) |
 | ``49`` | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python](./python/49_group-anagrams.py) |
 | ``53`` | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | [python](./python/53_maximum-subarray.py) |
+| ``56`` | [Merge Intervals](https://leetcode.com/problems/merge-intervals) | Medium | [python](./python/56_merge-intervals.py) |
 | ``57`` | [Insert Interval](https://leetcode.com/problems/insert-interval) | Medium | [python](./python/57_insert-interval.py) |
 | ``58`` | [Length of Last Word](https://leetcode.com/problems/length-of-last-word) | Easy | [python](./python/58_length-of-last-word.py) |
 | ``67`` | [Add Binary](https://leetcode.com/problems/add-binary) | Easy | [python](./python/67_add-binary.py) |
@@ -17,6 +18,7 @@
 | ``110`` | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree) | Easy | [python](./python/110_balanced-binary-tree.py) |
 | ``121`` | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | Easy | [python](./python/121_best-time-to-buy-and-sell-stock.py) |
 | ``125`` | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome) | Easy | [python](./python/125_valid-palindrome.py) |
+| ``133`` | [Clone Graph](https://leetcode.com/problems/clone-graph) | Medium | [python](./python/133_clone-graph.py) |
 | ``141`` | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle) | Easy | [python](./python/141_linked-list-cycle.py) |
 | ``169`` | [Majority Element](https://leetcode.com/problems/majority-element) | Easy | [python](./python/169_majority-element.py) |
 | ``189`` | [Rotate Array](https://leetcode.com/problems/rotate-array) | Medium | [python](./python/189_rotate-array.py) |
@@ -36,6 +38,7 @@
 | ``347`` | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | Medium | [python](./python/347_top-k-frequent-elements.py) |
 | ``383`` | [Ransom Note](https://leetcode.com/problems/ransom-note) | Easy | [python](./python/383_ransom-note.py) |
 | ``409`` | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | Easy | [python](./python/409_longest-palindrome.py) |
+| ``435`` | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) | Medium | [python](./python/435_non-overlapping-intervals.py) |
 | ``509`` | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Easy | [python](./python/509_fibonacci-number.py) |
 | ``542`` | [01 Matrix](https://leetcode.com/problems/01-matrix) | Medium | [python](./python/542_01-matrix.py) |
 | ``543`` | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree) | Easy | [python](./python/543_diameter-of-binary-tree.py) |
