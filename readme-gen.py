@@ -23,7 +23,7 @@ for i in sorted(problems):
     id = problems[i][:-3]
 
     data = {"operationName": "questionData", "variables": {"titleSlug": id},
-            "query": "query questionData($titleSlug: String!) {\n  question(titleSlug: $titleSlug) {\n    title\n    difficulty  }\n}\n"}
+            "query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {title difficulty}}"}
     leetcode = requests.post('https://leetcode.com/graphql', json=data).json()
 
     name = leetcode['data']['question']['title']
