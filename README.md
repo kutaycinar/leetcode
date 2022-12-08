@@ -49,6 +49,7 @@
 | ``1410`` | [HTML Entity Parser](https://leetcode.com/problems/html-entity-parser) | Medium | [python](./python/1410_html-entity-parser.py) |
 | ``1904`` | [The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played) | Medium | [python](./python/1904_the-number-of-full-rounds-you-have-played.py) |
 
+
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://leetcode-stats-six.vercel.app/?username=kutaycinar&theme=dark">
     <source media="(prefers-color-scheme: light)" srcset="https://leetcode-stats-six.vercel.app/?username=kutaycinar">
