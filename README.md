@@ -3,9 +3,12 @@
 | #   | Problem | Difficulty | Solutions |
 | --: | ------- | ---------- | --------- |
 | ``1`` | [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [python](./python/1_two-sum.py) |
+| ``3`` | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters) | Medium | [python](./python/3_longest-substring-without-repeating-characters.py) |
+| ``11`` | [Container With Most Water](https://leetcode.com/problems/container-with-most-water) | Medium | [python](./python/11_container-with-most-water.py) |
 | ``15`` | [3Sum](https://leetcode.com/problems/3sum) | Medium | [python](./python/15_3sum.py) |
 | ``20`` | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | [python](./python/20_valid-parentheses.py) |
 | ``21`` | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists) | Easy | [python](./python/21_merge-two-sorted-lists.py) |
+| ``36`` | [Valid Sudoku](https://leetcode.com/problems/valid-sudoku) | Medium | [python](./python/36_valid-sudoku.py) |
 | ``48`` | [Rotate Image](https://leetcode.com/problems/rotate-image) | Medium | [python](./python/48_rotate-image.py) |
 | ``49`` | [Group Anagrams](https://leetcode.com/problems/group-anagrams) | Medium | [python](./python/49_group-anagrams.py) |
 | ``53`` | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray) | Medium | [python](./python/53_maximum-subarray.py) |
@@ -43,6 +46,7 @@
 | ``347`` | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements) | Medium | [python](./python/347_top-k-frequent-elements.py) |
 | ``383`` | [Ransom Note](https://leetcode.com/problems/ransom-note) | Easy | [python](./python/383_ransom-note.py) |
 | ``409`` | [Longest Palindrome](https://leetcode.com/problems/longest-palindrome) | Easy | [python](./python/409_longest-palindrome.py) |
+| ``424`` | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement) | Medium | [python](./python/424_longest-repeating-character-replacement.py) |
 | ``435`` | [Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals) | Medium | [python](./python/435_non-overlapping-intervals.py) |
 | ``485`` | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones) | Easy | [python](./python/485_max-consecutive-ones.py) |
 | ``509`` | [Fibonacci Number](https://leetcode.com/problems/fibonacci-number) | Easy | [python](./python/509_fibonacci-number.py) |
@@ -52,8 +56,10 @@
 | ``704`` | [Binary Search](https://leetcode.com/problems/binary-search) | Easy | [python](./python/704_binary-search.py) |
 | ``733`` | [Flood Fill](https://leetcode.com/problems/flood-fill) | Easy | [python](./python/733_flood-fill.py) |
 | ``876`` | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list) | Easy | [python](./python/876_middle-of-the-linked-list.py) |
+| ``973`` | [K Closest Points to Origin](https://leetcode.com/problems/k-closest-points-to-origin) | Medium | [python](./python/973_k-closest-points-to-origin.py) |
 | ``1410`` | [HTML Entity Parser](https://leetcode.com/problems/html-entity-parser) | Medium | [python](./python/1410_html-entity-parser.py) |
 | ``1904`` | [The Number of Full Rounds You Have Played](https://leetcode.com/problems/the-number-of-full-rounds-you-have-played) | Medium | [python](./python/1904_the-number-of-full-rounds-you-have-played.py) |
+| ``2529`` | [Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer) | Easy | [python](./python/2529_maximum-count-of-positive-integer-and-negative-integer.py) |
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://leetcode-stats-six.vercel.app/?username=kutaycinar&theme=dark">
