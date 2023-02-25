@@ -2,19 +2,17 @@ from typing import List
 
 
 class Solution:
-    # O(n^2)
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
-        res = []
-        for i, t1 in enumerate(temperatures):
-            added = False
-            for j, t2 in enumerate(temperatures[i:]):
-                if(t1 < t2):
-                    res.append(j)
-                    added = True
-                    break
-            if not added:
-                res.append(0)
+        res = [0] * len(temperatures)
+        stack = []
+        for i, t in enumerate(temperatures):
+            while stack and t > stack[-1]:
+                j = stack.pop()
+                res[j] = i - j
 
-        print(res)
+            stack.append(i)
 
-Solution().dailyTemperatures(temperatures=[73, 74, 75, 71, 69, 72, 76, 73])
+        return res
+
+# Time:  O(n)
+# Space: O(n)
