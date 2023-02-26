@@ -8,9 +8,6 @@ class Solution:
             if x > n:
                 return 0
 
-            climb(x+1)
-            climb(x+2)
-
             return climb(x+1) + climb(x+2)
 
         return climb(0)
