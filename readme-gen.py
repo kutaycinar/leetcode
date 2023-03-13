@@ -21,7 +21,6 @@ easy = medium = hard = 0
 bar = Bar('Processing', max=len(problems))
 for i in sorted(problems):
     id = problems[i][:-3]
-
     data = {"operationName": "questionData", "variables": {"titleSlug": id},
             "query": "query questionData($titleSlug: String!) {question(titleSlug: $titleSlug) {title difficulty}}"}
     leetcode = requests.post('https://leetcode.com/graphql', json=data).json()
