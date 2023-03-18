@@ -8,7 +8,7 @@ class Solution:
         """
 
         size = len(nums)
-        temp = nums.copy()
+        temp = [*nums]
 
         for i in range(size):
             nums[(i+k) % size] = temp[i]
