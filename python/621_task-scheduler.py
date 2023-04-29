@@ -22,4 +22,4 @@ class Solution:
         return num_max_freq * max_freq + max(spots, remain)
 
 # Time:  O(n)
-# Space: O(1)
+# Space: O(n)
